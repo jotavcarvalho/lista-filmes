@@ -29,7 +29,6 @@ export default function ListaJogos() {
     }
 
     return (
-        <div className="banner-content">
             <div className="main-container">
                 <h2 className="title-main-container">Filmes por Streaming</h2>
                 <div className="btn-container">
@@ -58,6 +57,5 @@ export default function ListaJogos() {
                         )}
                 </div>
             </div>
-        </div>
     )
 }
