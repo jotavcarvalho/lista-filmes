@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.container-card{
+    display: flex;
+    align-items: center;
+    flex: 1 1 350px;
+    width: 300px;
+    max-width: 1024px;
+    border:2px solid rgb(239, 81, 81);  
+    background-color: rgba(0,0,0,0.7);
+}
+
+.img-div{
+    display: flex;
+    height: 70px;
+    width: 150px;
+}
+
+.img-card{
+    max-height: 250px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.text-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+    color:#f3f3f3;
+}
+
+
+.text-div p{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+
+@media (max-width:768px){
+    
+    .text-div p{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    
+}
+
+
+@media (max-width:620px){
+    
+    .text-div p{
+        font-size: 16px;
+        font-weight: bold;
+        
+    }
+    
+    @media (max-width:401px){
+        
+        .text-div p{
+            font-size: 14px;
+            font-weight: bold;
+            
+        }
+        
+    }
+}
