@@ -12,9 +12,8 @@
     border-radius:0px 0px 10px 10px;
 }
 
-.banner-content{
+body{
     background: linear-gradient(to bottom, #ff0000, #800000);
-    height:170vh;
 }
 
 .main-container {
@@ -126,10 +125,6 @@
 @media (max-width:768px){
 
 
-    .banner-content{
-        height:180vh;
-    }
-
     .title-main-container {
         font-size: 48px;
     }
@@ -167,10 +162,6 @@
 
 @media (max-width:620px){
 
-    .banner-content{
-        height:130vh;
-    }
-
    
     .title-main-container {
         font-size: 28px;
@@ -206,9 +197,6 @@
 
 @media (max-width:401px){
 
-    .banner-content{
-        height:200vh;
-    }
 
    
     .title-main-container {
